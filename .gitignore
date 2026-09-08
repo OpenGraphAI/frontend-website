@@ -1,4 +1,12 @@
+# Node / Web artifacts
+node_modules/
+.output/
+.wrangler/
+dist/
+.nitro/
+
 # Byte-compiled / optimized / DLL files
+
 __pycache__/
 *.py[codz]
 *$py.class
@@ -14,8 +22,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
